@@ -1,7 +1,7 @@
 # Site
 name: "ÇeVeri"
 title: "Çeveri Blog"
-description: "Jekyll template, Medium styled, free for bloggers."
+description: "Çeveri Blog"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon'
 baseurl: ""
@@ -38,6 +38,13 @@ authors:
     email: ""
     web: "https://github.com/barocena"
     twitter: https://instagram.com/barocena
+    description: "KLU | Translation and Interpreting"
+  Aleyna:
+    name: Aleyna
+    display_name: Aleyna Şen
+    avatar: 'assets/images/aleyna.png'
+    web: "https://www.instagram.com/nesanyela/"
+    twitter: "https://www.instagram.com/nesanyela/"
     description: "KLU | Translation and Interpreting"
 
 # Plugins
