@@ -6,7 +6,7 @@ categories: [Çeviri]
 image: "https://www.mirora.com/wp-content/uploads/2020/08/MT.jpg"
 description: ""
 featured: true
-hidden: true
+hidden: false
 rating: 5
 ---
   Teknolojinin günümüzde insanlara hayatın her alanında kolaylık ve konfor sağlamayı başaran bir araç olduğunu hiçbirimiz inkar edemeyiz. Makine çevirisi ve yapay zeka da teknolojinin çevirmenlere -özellikle teknik çevirmenlere- büyük katkılar sağladığı alanlardan birisi. Terminolojiye hakimiyet teknik çevirinin kalitesini belirleyen en önemli unsurlardan biridir. Bu yüzden zengin veri tabanına sahip makine çevirileri terim bilgisi konusunda teknik çevirmenlerin en yakın arkadaşı olabilir. Ancak makine çevirisini bir sihir gibi gören ve çıkan sonucun kusursuz olduğuna içtenlikle inanan dev insan kalabalığının aslında bu çevirilerin yetersiz olduğu gerçeğine körleştiğini söyleyebiliriz. Nasıl bir yetersizlik mi? Neredeyse her açıdan dersek yanlış olmaz. Aman bu ne yaman çelişki demeyin lütfen, başta savunduğumuz düşünceye karşı çıktığımızı düşünmenizi istemem; terminolojinin hedef çevirinin en önemli parçalarından biri olduğu konusunda hala hemfikiriz. Fakat biz o terminolojiyi hedef kitlemize uyarlamadan, cümlemizin ve metnin akışını
