@@ -3,10 +3,23 @@ Template Name: Mediumish
 Copyright: Sal, WowThemes.net, https://www.wowthemes.net 
 License: https://www.wowthemes.net/freebies-license/ 
 */
+
+
+/* 
+brand color 
+rengimiz
+#ff8a2a */
+
 @media screen and (min-width:1500px) {
-    html { font-size:18px; } /* Increase the font size on higher resolutions */
-    .container {max-width:80%;}
+    html {
+        font-size: 18px;
+    }
+    /* Increase the font size on higher resolutions */
+    .container {
+        max-width: 80%;
+    }
 }
+
 .mainheading {
     padding: 1rem 0rem;
 }
@@ -20,23 +33,122 @@ a:hover {
     color: #038252;
     text-decoration: none;
 }
+cite {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: rgba(0, 0, 0, .8);
+  }
+  cite:before {
+    content: '\2014' '\00a0';
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  blockquote {
+    position: relative;
+    padding: 34px 20px 34px 64px;
+    margin-bottom: 0;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, .8);
+  }
+  blockquote:before {
+    content: '\201C';
+    position: absolute;
+    top: 0.59em;
+    left: -0.01em;
+    font-size: 4em;
+    color: #ff8a2a;
+  }
 
 pre {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    border: #E3EDF3 1px solid;
     width: 100%;
     padding: 7px;
     font-family: monospace, sans-serif;
     font-size: .9rem;
     white-space: pre;
     overflow: auto;
-    background: #c5e6ff!important;
+    background: #f9f9f9!important;
     border-radius: 0px;
     line-height: 1.6;
-    color: #333;
+    color: #383a42;
     margin-bottom: -rem;
 }
+
+
+.gallery-box {
+    margin-bottom: 30px;
+  }
+  .gallery-box em {
+    display: inline-block;
+    width: 100%;
+    padding: 20px 0 0;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 1;
+    text-align: center;
+    color: #ff8a2a;
+  }
+  .gallery-box em a {
+    border-bottom: 2px solid rgba(0, 0, 0, );
+  }
+  .gallery-box em a:hover {
+    border-color: #ff8a2a;
+    color: #ff8a2a;
+    text-decoration: none;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-content: center;
+    grid-gap: 10px;
+  }
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  .table-container {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    border-radius: 10px;
+    border: 1px;
+    border-color: rgba(255,115,0,.5);
+    border-style:dashed;
+}
+  table {
+    font-size: 12px;
+    color: rgba(0, 0, 0, .8);
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table th {
+    padding: 12px;
+    font-size: 16px;
+    text-align: left;
+    color: rgba(0, 0, 0, .8);
+    background-color:#ffe8d5;
+  }
+  table tr {
+    background-color: rgb(223, 223, 223);
+    transition: all 0.3s ease;
+  }
+  table tr:nth-child(even) {
+    background-color: transparent;
+  }
+  table td {
+    padding: 12px;
+    font-size: 14px;
+  }
+  table tr:hover {
+    color:#ff8a2a ;
+  }
 
 .mediumnavigation {
     background: rgba(255, 255, 255, .97);
@@ -336,12 +448,6 @@ span.post-read-more a:hover {
     color: rgba(0, 0, 0, .8);
 }
 
-blockquote {
-    border-left: 4px solid #00ab6b;
-    padding: 0 20px;
-    font-style: italic;
-    color: rgba(0, 0, 0, .5);
-}
 
 .article-post p,
 .article-post blockquote {
@@ -399,7 +505,6 @@ blockquote {
     .featured-box-img-cover {
         height: 359px;
     }
-
     .alertbar {
         position: relative !Important;
         margin-bottom: 20px;
@@ -407,53 +512,42 @@ blockquote {
         box-shadow: none !Important;
         padding-right: 14px !Important;
     }
-
     #comments {
         margin-right: 15px;
     }
-
     .jumbotron.fortags {
         margin-bottom: 0 !Important;
     }
-
     .alertbar form {
         margin-top: 20px;
     }
-
     .alertbar span,
     .alertbar form {
         display: block;
     }
-
     .alertbar input[type="submit"] {
         border-radius: 3px !Important;
     }
-
     .alertbar input[type="email"] {
         margin-right: 0px !Important;
         display: block;
         border-right: 1px solid #ddd !Important;
         margin-bottom: 10px;
     }
-
     .jumbotron {
         margin-bottom: 0;
         border-radius: 0;
     }
-
     .listfeaturedtag .card {
         height: auto;
     }
-
     .listfeaturedtag .wrapfooter {
         position: relative;
         margin-top: 30px;
     }
-
     .listfeaturedtag .card-block {
         padding: 20px;
     }
-
     .footer {
         margin-top: 0px;
         margin-bottom: 0px;
@@ -777,12 +871,10 @@ iframe {
         background-image: url(../images/jumbotron.jpg);
         background-size: cover;
     }
-
     .jumbotron.fortags .col-md-4 {
         background: rgba(0, 0, 0, 0.75);
         color: #fff;
     }
-
     .jumbotron.fortags .row {
         margin: 0;
     }
@@ -829,7 +921,6 @@ iframe {
         -ms-flex-order: 1;
         order: 1;
     }
-
     .flex-first {
         -webkit-box-ordinal-group: 0;
         -webkit-order: 1;
@@ -884,7 +975,9 @@ iframe {
     opacity: 1;
 }
 
+
 /** Lazy img **/
+
 .lazyimg {
     display: block;
     border: 0 none;
