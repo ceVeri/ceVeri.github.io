@@ -3,7 +3,7 @@ layout: post
 title:  "Makine Çevirisi ve Hedef Kitle"
 author: Aleyna
 categories: [Çeviri]
-image: ".../assets/images/makinecevirisi_thumb.jpg"
+image: "https://github.com/ceVeri/ceVeri.github.io/blob/master/assets/images/makinecevirisi_thumb.jpg"
 description: ""
 featured: true
 hidden: false
