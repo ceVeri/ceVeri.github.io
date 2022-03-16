@@ -3,7 +3,7 @@ layout: post
 title:  "Makine Çevirisi ve Hedef Kitle"
 author: Aleyna
 categories: [Çeviri]
-image: "https://www.mirora.com/wp-content/uploads/2020/08/MT.jpg"
+image: ".../assets/images/makinecevirisi_thumb.jpg"
 description: ""
 featured: true
 hidden: false
