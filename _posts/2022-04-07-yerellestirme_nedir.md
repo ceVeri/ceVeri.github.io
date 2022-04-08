@@ -2,7 +2,7 @@
 layout: post
 title:  "Yerelleştirme Nedir?"
 author: Omer
-categories: []
+categories: [Çeviri]
 image: "https://images.unsplash.com/photo-1614107151491-6876eecbff89"
 description: ""
 featured: true

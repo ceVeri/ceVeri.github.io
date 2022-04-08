@@ -4,6 +4,7 @@ title:  "Makine Çevirisi ve Hedef Kitle"
 author: Aleyna
 categories: [Çeviri]
 image: "https://raw.githubusercontent.com/ceVeri/ceVeri.github.io/3661ee4749dd9cd66b26be7fa51768e18b5a31ef/assets/images/makinecevirisi_thumb.jpg"
+imageOnPage: false
 description: ""
 featured: true
 hidden: false

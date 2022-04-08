@@ -32,7 +32,7 @@ post_class: post-template
 
         <div class="col-md-9 flex-first flex-md-unordered">
             <div class="mainheading">
-
+    
                 <!-- Author Box -->
                 {% if page.author %}
                 <div class="row post-top-meta">
@@ -51,6 +51,11 @@ post_class: post-template
                             }} {{author.surname}}</a><a target="_blank" href="{{ author.twitter }}"
                             class="btn follow">Takip et</a>
                         <span class="author-description">&nbsp&nbsp&nbsp&nbsp{{ author.description }}</span>
+                        <br>
+                        <span class="post-date">{{ page.date | date_to_string }}</span>
+                        <strong>{% assign words = page.content | number_of_words %}
+                            {% if words < 360 %} 1 min read {% else %} {{ words | divided_by:180 }} min read {% endif %} </strong>
+                        
                     </div>
                 </div>
                 {% endif %}
@@ -68,16 +73,16 @@ post_class: post-template
 
             <!-- Post Featured Image -->
             {% if page.image %}
-
-            {% if site.lazyimages == "enabled" %}
+                {% if page.imageOnPage %}
+                    {% if site.lazyimages == "enabled" %}
             <img class="featured-image img-fluid lazyimg"
                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII="
                 data-src="{% if page.image contains " ://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image
                 }}{% endif %}" alt="{{ page.title }}">
-            {% else %}
+                     {% else %}
             <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
-             {% endif %}
-
+                    {% endif %} 
+                {% endif %}
             {% endif %}
             <!-- End Featured Image -->
 
