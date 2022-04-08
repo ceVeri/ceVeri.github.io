@@ -33,6 +33,7 @@ authors:
   Barocena:
     name: Barocena
     display_name: Barış
+    surname: Şentürk
     avatar: "assets/images/Barocena.png"
     gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: ""
@@ -41,10 +42,19 @@ authors:
     description: "KLU | Translation and Interpreting"
   Aleyna:
     name: Aleyna
-    display_name: Aleyna Şen
+    display_name: Aleyna
+    surname: Şen
     avatar: 'assets/images/aleyna.png'
     web: "https://www.instagram.com/nesanyela/"
     twitter: "https://www.instagram.com/nesanyela/"
+    description: "KLU | Translation and Interpreting"
+  Omer:
+    name: Ömer
+    display_name: Ömer Faruk
+    surname: Türkan
+    avatar: 'assets/images/omer_pp.jpg'
+    web: "https://www.linkedin.com/in/ömer-faruk-türkan-724141237/"
+    twitter: "https://www.linkedin.com/in/ömer-faruk-türkan-724141237/"
     description: "KLU | Translation and Interpreting"
 
 # Plugins

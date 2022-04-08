@@ -772,6 +772,7 @@ ul.tags li a:hover {
 .h4,
 .h5,
 .h6,
+.h7,
 h1,
 h2,
 h3,
@@ -780,6 +781,8 @@ h5,
 h6 {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
+h7
+
 
 .article-post .h1,
 .article-post .h2,
@@ -796,7 +799,11 @@ h6 {
     font-weight: 700;
     margin-bottom: 1.5rem;
 }
-
+.article-post h7 {
+    font-size:10px;
+    color: #999;
+    margin-top: 0%;
+}
 .article-post img.shadow {
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
     -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
