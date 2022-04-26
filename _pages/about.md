@@ -1,35 +1,98 @@
 ---
 layout: page
-title: Hakkımızda
+title: ""
 permalink: /hakkimizda
 comments: false
 ---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<div class="row justify-content-between">
-<div class="col-md-8 pr-5">
+<br><br>
 
-<p>This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.</p>
+# Hakkımızda
 
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
-<h4>Documentation</h4>
+---
 
-<p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
+ÇeVeri, mütercim tercümanlık bölümü öğrencileri tarafından oluşturulmuş yazılı ve sözlü çeviri eğitimine yönelik bir dijital araç kütüphanesidir. 
 
-<h4>Questions or bug reports?</h4>
+Amacımız, çeviriye ilgi duyan herkese ve çevirmen adayı arkadaşlarımıza çeviri alanıyla ilgili birçok konuda destek olmaktır. Sitemizde sizlere sözlü ve yazılı çeviri hakkında birçok video ve yazılı içerik sunacağız.
 
-<p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p>
+“Bir çevirmenin meslek hayatında karşılaşabileceği sorunlar nelerdir ve bu sorunlardan nasıl kurtulabiliriz?”
 
-</div>
+“’İdeal’ bir çeviri nasıl aşamalardan geçer?”
 
-<div class="col-md-4">
+“Bir çevirmenin hangi becerilere sahip olması gerekir?” gibi, çevirmenliği birçok açıdan ele aldığımız soruların cevaplarını hep birlikte burada bulacağız.
+<h2 style="text-align:center">Takımımız</h2>
+<br>
+<style>
+.flex-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 
-<div class="sticky-top sticky-top-80">
-<h5>Buy me a coffee</h5>
+.flex-grid-item {
+	height: 335px;
+	width: 0px;
+	flex-shrink: 0;
+	flex-basis: 33.3333%;
+	flex-basis: 220px;
+	flex-direction: row;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+</style>
 
-<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
-
-<a target="_blank" href="https://www.wowthemes.net/donate/" class="btn btn-danger">Buy me a coffee</a> <a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/" class="btn btn-warning">Documentation</a>
-
-</div>
-</div>
+<div class="flex-grid">
+<!-- Profil kartı -->
+	<div class="flex-grid-item">
+		<div style="width:200px;background: #e9e9e9;padding: 10px;border-radius: 10px;text-align-last:center;height:325px;">
+			<img style="border-radius:50%;box-shadow: 0 0 13px 0px #0000008c;" src="assets/images/ege_pp.jpg" height="150px">
+			<div style ="height:1rem"></div>
+			<p style="text-align: center"> Ege Anter </p>
+			<p style="text-align: center">Director | Video Editor</p>
+			<a target="_blank" href="https://www.linkedin.com/in/ege-anter-385bb41b0/" class="btn follow" style=" width: -webkit-fill-available; ">Takip et</a>
+		</div>
+	</div>
+	<!-- Profil kartı -->
+	<div class="flex-grid-item">
+		<div style="width:200px;background: #e9e9e9;padding: 10px;border-radius: 10px;text-align-last:center;height:325px;">
+			<img style="border-radius:50%;box-shadow: 0 0 13px 0px #0000008c;" src="assets/images/Barocena.png" height="150px">
+			<div style ="height:1rem"></div>
+			<p style="text-align: center">Barış Şentürk</p>
+			<p style="text-align: center">Editor</p>
+			<a target="_blank" href="https://www.linkedin.com/in/barış-şentürk/" class="btn follow" style=" width: -webkit-fill-available; ">Takip et</a>
+		</div>
+	</div>
+	<!-- Profil kartı -->
+	<div class="flex-grid-item">
+		<div style="width:200px;background: #e9e9e9;padding: 10px;border-radius: 10px;text-align-last:center;height:325px;">
+			<img style="border-radius:50%;box-shadow: 0 0 13px 0px #0000008c;" src="assets/images/aleyna.png" height="150px">
+			<div style ="height:1rem"></div>
+			<p style="text-align: center">Aleyna Şen</p>
+			<p style="text-align: center">Editor</p>
+			<a target="_blank" href="https://www.linkedin.com/in/aleynasen00/" class="btn follow" style=" width: -webkit-fill-available; ">Takip et</a>
+		</div>
+	</div>
+	<!-- Profil kartı -->
+	<div class="flex-grid-item">
+		<div style="width:200px;background: #e9e9e9;padding: 10px;border-radius: 10px;text-align-last:center;height:325px;">
+			<img style="border-radius:50%;box-shadow: 0 0 13px 0px #0000008c;" src="assets/images/emirhan_pp.jpg" height="150px">
+			<div style ="height:1rem"></div>
+			<p style="text-align: center">Emirhan Karahasan</p>
+			<p style="text-align: center">Editor</p>
+			<a target="_blank" href="https://www.linkedin.com/in/emirhan-karahasan-7634721b4/" class="btn follow" style=" width: -webkit-fill-available; ">Takip et</a>
+		</div>
+	</div>
+	<!-- Profil kartı -->
+	<div class="flex-grid-item">
+		<div style="width:200px;background: #e9e9e9;padding: 10px;border-radius: 10px;text-align-last:center;height:325px;">
+			<img style="border-radius:50%;box-shadow: 0 0 13px 0px #0000008c;" src="assets/images/omer_pp.jpg" height="150px">
+			<div style ="height:1rem"></div>
+			<p style="text-align: center">Ömer Faruk Türkan</p>
+			<p style="text-align: center">Editor</p>
+			<a target="_blank" href="https://www.linkedin.com/in/ömer-faruk-türkan-724141237/" class="btn follow" style=" width: -webkit-fill-available; ">Takip et</a>
+		</div>
+	</div>
 </div>
