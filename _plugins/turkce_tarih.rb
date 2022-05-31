@@ -1,12 +1,12 @@
 module Jekyll
-    module TurkceTarih
+    module date_to_string
         MONTHS = {"01" => "Ocak", "02" => "Şubat", "03" => "Mart",
                 "04" => "Nisan", "05" => "Mayıs", "06" => "Haziran",
                 "07" => "temmuz", "08" => "ağustos", "09" => "eylül",
                 "10" => "Ekim", "11" => "Kasım", "12" => "Aralık"}
 
         # http://man7.org/linux/man-pages/man3/strftime.3.html
-        def turkceTarih(date)
+        def date_to_string(date)
             day = time(date).strftime("%e") # leading zero is replaced by a space
             month = time(date).strftime("%m")
             year = time(date).strftime("%Y")
@@ -22,4 +22,4 @@ module Jekyll
     end
 end
 
-Liquid::Template.register_filter(Jekyll::TurkceTarih)
+Liquid::Template.register_filter(Jekyll::date_to_string)
