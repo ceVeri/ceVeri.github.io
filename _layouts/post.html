@@ -52,7 +52,7 @@ post_class: post-template
                             class="btn follow">Takip et</a>
                         <span class="author-description">&nbsp&nbsp&nbsp&nbsp{{ author.description }}</span>
                         <br>
-                        <span class="post-date">{{ page.date | date_to_string }}</span>
+                        <span class="post-date">{{ page.date | turkceTarih }}</span>
                         <strong>{% assign words = page.content | number_of_words %}
                             {% if words < 360 %} 1 min read {% else %} {{ words | divided_by:180 }} min read {% endif %} </strong>
                         
@@ -120,7 +120,7 @@ post_class: post-template
             <p>
                 <small>
                     <span class="post-date"><time class="post-date" datetime="{{ page.date | date:" %Y-%m-%d" }}">{{
-                            page.date | date_to_string }}</time></span>
+                            page.date | turkceTarih }}</time></span>
                     {% if page.last_modified_at %}
                     (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}"
                         itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
