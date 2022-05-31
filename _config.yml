@@ -56,6 +56,14 @@ authors:
     web: "https://www.linkedin.com/in/ömer-faruk-türkan-724141237/"
     twitter: "https://www.linkedin.com/in/ömer-faruk-türkan-724141237/"
     description: "KLU | Translation and Interpreting"
+  Sevda:
+    name: Sevda
+    display_name: Sevda
+    surname: Pekcoşkun Güner
+    avatar: 'assets/images/sevda_hoca.jfif'
+    web: "https://www.linkedin.com/in/sevda-pekcoşkun-güner-b4093582/"
+    twitter: "https://www.linkedin.com/in/sevda-pekcoşkun-güner-b4093582/"
+    description: "Dr. Öğretim Üyesi / Kırklareli University"
 
 # Plugins
 plugins:
