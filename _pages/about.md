@@ -48,6 +48,16 @@ Amacımız, çeviriye ilgi duyan herkese ve çevirmen adayı arkadaşlarımıza 
 <!-- Profil kartı -->
 	<div class="flex-grid-item">
 		<div style="width:200px;background: #e9e9e9;padding: 10px;border-radius: 10px;text-align-last:center;height:325px;">
+			<img style="border-radius:50%;box-shadow: 0 0 13px 0px #0000008c;" src="assets/images/sevda_hoca.jfif" height="150px">
+			<div style ="height:1rem"></div>
+			<p style="text-align: center;font-size:17px"> Sevda Pekcoşkun Güner </p>
+			<p style="text-align: center">Project Manager</p>
+			<a target="_blank" href="https://www.linkedin.com/in/sevda-pekcoşkun-güner-b4093582/" class="btn follow" style=" width: -webkit-fill-available; ">Takip et</a>
+		</div>
+	</div>
+<!-- Profil kartı -->
+	<div class="flex-grid-item">
+		<div style="width:200px;background: #e9e9e9;padding: 10px;border-radius: 10px;text-align-last:center;height:325px;">
 			<img style="border-radius:50%;box-shadow: 0 0 13px 0px #0000008c;" src="assets/images/ege_pp.jpg" height="150px">
 			<div style ="height:1rem"></div>
 			<p style="text-align: center"> Ege Anter </p>
@@ -61,7 +71,7 @@ Amacımız, çeviriye ilgi duyan herkese ve çevirmen adayı arkadaşlarımıza 
 			<img style="border-radius:50%;box-shadow: 0 0 13px 0px #0000008c;" src="assets/images/Barocena.png" height="150px">
 			<div style ="height:1rem"></div>
 			<p style="text-align: center">Barış Şentürk</p>
-			<p style="text-align: center">Editor</p>
+			<p style="text-align: center">Editor | Programmer </p>
 			<a target="_blank" href="https://www.linkedin.com/in/barış-şentürk/" class="btn follow" style=" width: -webkit-fill-available; ">Takip et</a>
 		</div>
 	</div>
